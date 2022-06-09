@@ -17,7 +17,7 @@ void times_table(void)
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (num2 = 1; num2 <=9; num2++)
+		for (num2 = 1; num2 <= 9; num2++)
 		{
 			total = num1 * num2;
 			if ((total / 10) > 0)
