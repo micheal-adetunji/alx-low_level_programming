@@ -10,7 +10,7 @@ void print_times_table(int n)
 {
 	int num1, num2, total;
 
-	if ((n >= 0) && (n < 16))
+	if ((n > 0) && (n < 16))
 	{
 		for (num1 = 0; num1 <= n; num1++)
 		{
@@ -40,11 +40,12 @@ void print_times_table(int n)
 				}
 				if (num2 < n)
 				{
-					_putchar(',');
-					_putchar(' ');
+					_putchar(','), _putchar(' ');
 				}
 			}
 			_putchar('\n');
 		}
 	}
+	else if (n == 0)
+		_putchar('0'), _putchar('\n');
 }
