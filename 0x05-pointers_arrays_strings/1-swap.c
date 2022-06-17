@@ -2,6 +2,8 @@
 
 /**
  * swap_int - swaps pointer values
+ * @a: pointer address to int a
+ * @b: pointer address to int b
  *
  * Return: returns void
  */
