@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * swap_int - swaps integer a and b
- * @a: pointer address to integer a
- * @b: pointer address to integer b
+ * swap_int - swaps pointer values a and b
+ * @a: pointer address to int a
+ * @b: pointer address to int b
  *
  * Return: returns void
  */
