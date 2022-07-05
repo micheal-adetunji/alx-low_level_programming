@@ -10,11 +10,23 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
+	int i, j;
+	
+	i = 0;
+	while (haystack[i] != '\0')
+	{
+		i++;
+	}
+	j = 0;
+	while (needle[j] != '\0')
+	{
+		j++;
+	}
 	while (*haystack)
 	{
 		char *str = haystack;
 
-		while (*haystack && *needle && *haystack == *needle && *needle != '\0' && *haystack != '\0')
+		while (*haystack && *needle && *haystack == *needle)
 		{
 			haystack++;
 			needle++;
