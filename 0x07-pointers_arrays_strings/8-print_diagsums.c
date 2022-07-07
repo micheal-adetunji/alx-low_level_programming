@@ -6,7 +6,8 @@
  * two diagonals in a square matrix
  * @a: square matrix or 2d square array
  * @size: size of square matrix
- *
+ * Note - a denotes base address in loop
+ * i.e first element in loop
  * Return: returns nothing
  */
 void print_diagsums(int *a, int size)
@@ -18,7 +19,7 @@ void print_diagsums(int *a, int size)
 	{
 		sum1 = sum1 + a[i];
 		sum2 = sum2 + a[size - i - 1];
-		a += size;
+		a = a + size;
 		i++;
 	}
 	printf("%d, %d\n", sum1, sum2);
