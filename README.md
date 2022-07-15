@@ -1,1 +1,1 @@
-This repository is created for alx c programming projects
+This directory is created for 0x09-static_libraries tasks
